@@ -46,7 +46,7 @@ postButton.onclick = async function () {
           ipsOnCooldown.splice(index, 1);
           console.log(`Removed ${ipAddress} from cooldown list.`);
         }
-      }, 3000);
+      }, 300000);
 
       sendConfessionToDiscord(newConfession, ipAddress);
     }
