@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #000000 0%, #000000 100%);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#inputAndButtonDiv {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+#confessionInput {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1em;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+  margin-bottom: 15px;
+}
+
+#confessionInput:focus {
+  border-color: #FFFFFF;
+}
+
+#postButton {
+  padding: 14px 28px;
+  font-size: 1.1em;
+  color: #fff;
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#postButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0);
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #fff;
+  margin-top: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#postedConfessions {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 600px;
+  margin-top: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+#confessions {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.7;
+}
+
+p {
+  margin: 0;
+}
